@@ -1,0 +1,26 @@
+.cardHerbarium {
+    width: 32%;
+    /* height: 400px; */
+    display: block;
+    border: 1px solid lightgrey;
+    margin-bottom: 17px;
+    padding: 10px;
+    border-radius: 4px;
+    /* position:sticky; */
+}
+.inputDiv {
+    width: 100%;
+    /* display: inline-flex; */
+}
+.herbariumInput {
+    width: 100%;
+    /* margin-left:40%; */
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    height: 5vh;
+    outline: none;
+    padding: 5px;
+    margin-bottom: 5px;
+    /* cursor:pointer; */
+    /* margin-bottom:10px; */
+}

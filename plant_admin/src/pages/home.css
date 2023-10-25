@@ -1,0 +1,111 @@
+.esasyDiv{
+  background-color:  #F7F7FA;
+  height: auto;
+  width: 100% !important;
+  /* margin-bottom: 30px; */
+  padding-bottom: 40px;
+}
+
+.carouselDiv{
+  display: block;
+  width: 99%;
+  padding:60; 
+  padding-top:20px;
+  cursor: pointer;
+  opacity: 1;
+}
+.ant-carousel .slick-slide {
+  text-align: center;
+  height: 570px !important;
+  line-height: 450px;
+  overflow: hidden;
+  opacity: 1;
+}
+.ant-carousel .slick-slide h3 {
+  color: #fff;
+}
+.caruselImg{
+  height: 600px;
+  width:100%;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.button{
+  width: 12%;
+  height: 40px;
+  background-color: white;
+  border:1px solid #09AB5B ;
+  color:  #09AB5B;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer; 
+  margin-top: 5px;
+}
+.button:hover{
+  background-color: #09AB5B;
+  color: white;
+}
+
+#card:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer;
+  }
+  /* .createButton{
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 12%;
+    height: 40px;
+    font-size: 17px;
+    border-radius: 8px;
+    border: 1px solid #09AB5B;
+    background-color: white;
+    cursor: pointer;
+  } */
+  .createButton:hover{
+    background-color: #09AB5B;
+    color: white;
+  }
+
+  .tabHeader{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+    /* padding-left: 30px; */
+    margin-top: 30px;
+    border: 1px solid lightgrey;
+    border-bottom: none;
+  }
+  .tabHeader > h1{
+    font-size: 14px;
+    padding: 10px 15px; 
+    margin-bottom: 0px;
+    cursor: pointer;
+  }
+  .tabHeader > h1:hover{
+    color:#09AB5B;
+    border-bottom: none;
+    border-top: none;
+  }
+  .activeTabHeader{
+    background-color: white;
+    /* border-radius: 8px 8px 0px 0px; */
+    color: #09AB5B;
+    /* border: 1px solid lightgray;
+    border-bottom: none;
+    border-top: none; */
+  }
+
+  .tabBody{
+    width: 100%;
+    /* padding: 0px 30px; */
+    border: 1px solid lightgray;
+    border-top: none;
+  }
+  .tabChild{
+    padding: 10px;
+    background-color: white;
+    min-height: 80vh;
+    padding: 30px;
+  }

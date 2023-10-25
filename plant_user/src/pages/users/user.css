@@ -1,0 +1,79 @@
+
+
+table{
+    border: 1px solid lightgray;
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    border-radius: 8px;
+
+}
+table>tr{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 8px;
+
+}
+table>tr>th{
+    /* border: 1px solid lightgray; */
+    text-align: center;
+    padding: 10px;
+}
+table>tr>td{
+    /* border: 1px solid lightgray; */
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.createBtn{
+ position: absolute;
+ right: 0px;
+ bottom: 10px;
+ height: 40px;
+ width: 12%;
+ border: 1px solid lightgrey;
+ background-color: white;
+ cursor: pointer;
+ font-weight: 600;
+ border-radius: 5px;
+}
+
+.activeBtn{
+    border: 1px solid #09AB5B ;
+    color:#09AB5B ;
+   }
+.createBtn:hover{
+    /* background-color: lightgray; */
+    border: 1px solid #09AB5B ;
+    color:#09AB5B ;
+}
+
+.drawerLabel{
+    margin: 10px;
+}
+.drawerInput{
+    margin: 10px;
+    width: 95%;
+    height: 35px;
+    border:  1px solid lightgray;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.drawerBtn{
+    width: 30%;
+    height: 35px;
+    margin: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    cursor: pointer;
+}
+.drawerBtn:hover{
+    color: #09AB5B;
+    border:  1px solid #09AB5B;
+}

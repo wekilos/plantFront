@@ -1,0 +1,24 @@
+.card-button{
+    width:50%;
+    height:40px;
+    background-color: white;
+    border: 1px solid #09AB5B;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #09AB5B;
+}
+.card-button:hover{
+    cursor: pointer;
+    color: white;
+    background-color: #09AB5B;
+}
+
+.ant-carousel .slick-slide{
+    line-height:180px !important;
+    height: 180px !important;
+}
+
+.ant-carousel .slick-initialized .slick-slide{
+    line-height: 180px !important;
+    height: 180px !important;
+}

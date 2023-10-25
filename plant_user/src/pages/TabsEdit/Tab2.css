@@ -1,0 +1,22 @@
+.tabInput{
+    width: 100%;
+    border: 1px solid lightgray;
+    height: 30px;
+    margin-bottom: 4px;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px;
+    /* background-color: rgba(238, 237, 237, 0.164); */
+}
+.options{
+    width: 100%;
+    border: 1px solid lightgray;
+    height: 30px;
+    /* margin-bottom: 4px; */
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 5px; 
+    /* background-color: brown; */
+}

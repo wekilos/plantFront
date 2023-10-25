@@ -1,0 +1,26 @@
+.mainDiv{
+    background-color: #F7F7FA;
+    height: 180vh;
+    width: 100%;
+}
+
+.container1{
+    margin: 0 auto;
+    width: 90%;
+    height: 80vh;
+}
+
+.container2{
+    display: inline-flex;
+    width: 100%;
+    margin-top: 5%;
+    height: 400px;
+}
+
+.miniContainers{
+    width: 50%;
+    padding: 10px;
+    line-height:28px;
+    font-size: 20px;
+    height: 370px;
+}

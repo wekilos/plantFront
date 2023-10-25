@@ -1,0 +1,82 @@
+.logincontainer{
+    user-select: none;
+    width: 100%;
+    margin: 0 auto;
+    background: url(../components//img//pexels-element-digital-1470171.jpg);
+    background-size: cover;
+    height: 625px;
+    min-height: 100vh;
+    /* border-radius: 8px; */
+    padding: 25px;
+    /* margin-top: 15px; */
+}
+
+.inputDiv{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.paswordDiv{
+    position: relative;
+    width: 40%;
+    min-width: 250px; 
+    height: 50px;
+    border-radius: 8px;  
+    margin: 2px 10px 10px; 
+}
+.eyeIcon{
+    position: absolute;
+    top: 17px;
+    right: 17px;
+    font-size: 18px;
+    z-index: 10;
+    cursor: pointer;
+}
+.input{
+    width: 40%;
+    min-width: 250px;
+    border: 1px solid lightgrey;
+    height: 50px;
+    border-radius: 8px; 
+    cursor: pointer;
+    margin: 2px 10px 10px;
+    outline: none;
+    padding-left: 10px; 
+    font-size: 18px;
+}
+.passinput{
+    width: 100%; 
+    border: 1px solid lightgrey;
+    height: 50px;
+    border-radius: 8px;
+    padding: 5px;
+    cursor: pointer; 
+    outline: none;
+    padding-left: 10px;  
+    font-size: 18px;
+    position: absolute; 
+}
+
+.login-button{
+    width: 40%;
+    min-width: 250px;
+    height: 50px;
+    margin: 10px;
+    background-color: white;
+    border:1px solid #09AB5B ;
+    color:  #09AB5B;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer; 
+    margin-top: 5px;
+    font-size: 19px;
+    user-select: none;
+}
+.login-button:hover{
+    background-color:#09AB5B;
+    color: white;
+}
+
+.input{
+    /* border: none; */
+    font-size: 19px;
+}
